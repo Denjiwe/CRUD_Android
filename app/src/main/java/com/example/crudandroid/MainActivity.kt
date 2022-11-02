@@ -1,5 +1,6 @@
 package com.example.crudandroid
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.crudandroid.databinding.ActivityMainBinding
@@ -13,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnAdd.setOnClickListener {
-
+            val intent = Intent(this, AddActivity::class.java)
+            startActivity(intent)
         }
     }
 }
