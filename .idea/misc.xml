@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_add.xml" value="0.25" />
         <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_addactivity2.xml" value="0.1" />
-        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/card_item_pessoa_view_holder.xml" value="0.25" />
       </map>
     </option>
   </component>
