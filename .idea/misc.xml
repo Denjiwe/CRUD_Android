@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_add.xml" value="0.25" />
+        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/drawable/custom_input.xml" value="0.305" />
+        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_add.xml" value="0.22" />
         <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_addactivity2.xml" value="0.1" />
         <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/card_item_pessoa_view_holder.xml" value="0.25" />
+        <entry key="..\:/santh/Documents/GitHub/CRUD_Android/app/src/main/res/layout/card_item_pessoa_view_holder.xml" value="0.22" />
       </map>
     </option>
   </component>

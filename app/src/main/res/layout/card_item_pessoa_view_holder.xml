@@ -1,45 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#D11A50"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="4dp"
     android:layout_marginBottom="4dp"
-    android:orientation="vertical">
-
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:padding="8dp">
 
     <TextView
         android:id="@+id/tv_nome"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textSize="18sp"
-        tools:text="Nome:" />
+        tools:text="Nome" />
 
     <TextView
-        android:id="@+id/tv_email"
-        android:layout_width="300dp"
+        android:id="@+id/hifen"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#BDBDBD"
+        android:layout_toEndOf="@id/tv_nome"
         android:textSize="18sp"
-        tools:text="Email:" />
+        android:text=" - "
+        android:textColor="@color/white"/>
+
 
     <TextView
         android:id="@+id/tv_idade"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/hifen"
         android:textColor="@color/white"
         android:textSize="18sp"
-        tools:text="Idade:" />
+        tools:text="Idade" />
+
+    <TextView
+        android:id="@+id/anos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tv_idade"
+        android:textSize="18sp"
+        android:text=" Anos "
+        android:textColor="@color/white"/>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nome"
+        android:textColor="#BDBDBD"
+        android:textSize="12sp"
+        tools:text="Email" />
+
+    <TextView
+        android:id="@+id/hifen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tv_email"
+        android:layout_below="@id/tv_nome"
+        android:textSize="12sp"
+        android:text=" - "
+        android:textColor="#BDBDBD"/>
 
     <TextView
         android:id="@+id/tv_telefone"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/hifen2"
+        android:layout_below="@id/tv_nome"
         android:textColor="#BDBDBD"
-        android:textSize="18sp"
-        tools:text="Telefone:" />
+        android:textSize="12sp"
+        tools:text="Telefone" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/action_delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_delete"/>
+
+    <ImageView
+        android:id="@+id/action_update"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@id/action_delete"
+        android:src="@drawable/ic_update"/>
+
+</RelativeLayout>
